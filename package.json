@@ -1,0 +1,20 @@
+{
+  "name": "javascript-is-weird",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.mjs",
+  "engines": {
+    "node": "20"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node index.mjs",
+    "start": "node output.mjs"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "node-dev": "^8.0.0"
+  }
+}
